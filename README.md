@@ -120,7 +120,7 @@ The russian version of the task can be found in the repository.
 2. [Chapter II](#chapter-ii) \
    2.1. [Information](#information)
 3. [Chapter III](#chapter-iii) \
-   3.1. [Part 1](#part-1-working-with-the-cat-utility)  
+   3.1. [Part 1](#part-1)  
    3.2. [Part 2](#part-2-working-with-grep-utility)  
    3.3. [Part 3](#part-3-bonus-implementation-of-some-grep-utility-flags)  
    3.4. [Part 4](#part-4-bonus-implementation-of-grep-utility-flag-combinations)
