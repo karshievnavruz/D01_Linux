@@ -94,70 +94,12 @@ Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dast
 ![img](screen/4.1.png)
 ## Part 5. Sudo komandasi foydalanish
 
-**[Part 1](#Part-1.-Operatsion-tizimni-o‘rnatish)da yaratilgan foydalanuvchiga sudo komandasini bajarishga ruxsat berish.**
+**[Part 1](#part-1-operatsion-tizimni-ornatish)da yaratilgan foydalanuvchiga sudo komandasini bajarishga ruxsat berish.**
 ![img](screen/5.0.png)
-**Part 2 da yaratilgan foydalanuvchi nomidan OS hostname ni o'zgartirish (sudo yordamida).**
+**[Part 2](#part-2-foydalanuvchini-yaratish) da yaratilgan foydalanuvchi nomidan OS hostname ni o'zgartirish (sudo yordamida).**
 ![img](screen/5.1.png)
 **sudo — bu yordamchi dastur bo'lib, vaqtinchalik ravishda imtiyozlarni oshirish va tizimni boshqarish vazifalarini bajarishga imkon beradi.**
 ![img](screen/4..png)
 ![img](screen/4..png)
 ![img](screen/4..png)
 ![img](screen/4..png)
-
-# Simple Bash Utils
-
-Development of Bash text utilities: cat, grep.
-
-The russian version of the task can be found in the repository.
-
-💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
-
-## Contents
-[Part 3](Part-3-Tarmoqni-sozlash)
-0. [Preamble](#preamble)
-1. [Chapter I](#chapter-i) \
-   1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii) \
-   2.1. [Information](#information)
-3. [Chapter III](#chapter-iii) \
-[Part 1](#part-1-operatsion-tizimni-o‘rnatish) 
-   3.1. [Part 1](#part-1-working-with-the-cat-utility)  
-   3.2. [Part 2](#part-2-working-with-grep-utility)  
-   3.3. [Part 3](#part-3-bonus-implementation-of-some-grep-utility-flags)  
-   3.4. [Part 4](#part-4-bonus-implementation-of-grep-utility-flag-combinations)
-
-
-## Part 1. Working with the cat utility
-
-You need to develop a cat utility:
-- Support of all flags (including GNU versions) specified [above](#cat-options)
-- The source, header, and build files must be placed in the src/cat/ directory
-- The resulting executable file must be placed in the directory src/cat/ and named s21_cat
-
-## Part 2. Working with grep utility
-
-You need to develop the grep utility:
-- Support of the following flags: `-e`, `-i`, `-v`, `-c`, `-l`, `-n`
-- Only pcre or regex libraries can be used for regular expressions
-- The source, header and make files must be placed in the src/grep/ directory
-- The resulting executable file must be placed in the directory src/grep/ and named s21_grep
-
-## Part 3. Bonus. Implementation of some grep utility flags
-
-Bonus assignment for extra points. You need to develop the grep utility:
-- Support of all flags, including: `-h`, `-s`, `-f`, `-o`
-- Only pcre or regex libraries can be used for regular expressions
-- The source, header and make files must be placed in the src/grep/ directory
-- The resulting executable file must be placed in the directory src/grep/ and named s21_grep
-
-## Part 4. Bonus. Implementation of grep utility flag combinations
-
-Bonus assignment for extra points. You need to develop the grep utility:
-- Support of all flags, including their _pair_ combinations (e.g. `-iv`, `-in`)
-- Only pcre or regex libraries can be used for regular expressions
-- The source, header and make files must be placed in the src/grep/ directory
-- The resulting executable file must be placed in the directory src/grep/ and named s21_grep
-
-
-
-
