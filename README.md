@@ -58,11 +58,33 @@ Keyin foydalanuvchini adm guruhiga qo'shish uchun quyidagi buyruqni bajaring:
 ![img](screen/3.1.png)
 #### Hozirgi joylashuvingizga mos vaqt zonasini o'rnating.
 ![img](screen/3.2.png)
+```bash
 sudo timedatectl set-timezone Asia/Tashkent
+   ```
 
+#### Konsol buyrug‘i yordamida tarmoq interfeyslari nomlarini chiqarish.
+![img](screen/3.3.png)
+Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dasturlarga ushbu kompyuterga murojaat qilish imkonini beradi. 
 
-![img](screen/3.1.png)
-![img](screen/3.1.png)
-![img](screen/3.1.png)
-![img](screen/3.1.png)
-![img](screen/3.1.png)
+#### Konsol buyrug'i yordamida siz ishlayotgan qurilmaning IP manzilini DHCP serveridan oling. 
+
+**O'rnatish**.
+![img](screen/3.4.png)
+
+#### Konsol buyrug'i yordamida siz ishlayotgan qurilmaning IP manzilini DHCP serveridan oling.
+![img](screen/3.5.png)
+#### DHCP — bu dinamik host konfiguratsiya protokoli (Dynamic Host Configuration Protocol) bo'lib, u IT-infrastrukturada har bir yangi qurilmaning tarmoq parametrlarini avtomatik ravishda belgilaydi.
+
+#### Tashqi IP manzilini (ip) va ichki IP manzilini (gw) — ya'ni, standart IP manzilini ekranga chiqarish.
+![img](screen/3.6.png)
+#### Statik (qo'lda belgilangan, DHCP serveridan olinmagan) IP, gw va DNS sozlamalarini o'rnating (masalan, 1.1.1.1 yoki 8.8.8.8 kabi ochiq DNS serverlardan foydalaning).
+![img](screen/3.7.png)
+![img](screen/3.8.png)
+![img](screen/3.9.png)
+![img](screen/3.10.png)
+#### Qayta yoqilgandan so'ng.
+![img](screen/3.11.png)
+![img](screen/3.12.png)
+![img](screen/3.13.png)
+
+## Part 4. OS yangilash
