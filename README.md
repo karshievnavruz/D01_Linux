@@ -108,7 +108,16 @@ Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dast
 **[Part 2](#part-2-foydalanuvchini-yaratish) da yaratilgan foydalanuvchi nomidan OS hostname ni o'zgartirish (sudo yordamida).**
 ![img](screen/5.1.png)
 **sudo — bu yordamchi dastur bo'lib, vaqtinchalik ravishda imtiyozlarni oshirish va tizimni boshqarish vazifalarini bajarishga imkon beradi.**
+## Part 6. Vaqt xizmatini o'rnatish va sozlash
+
+**Avtomatik vaqtni sinxronizatsiya qilish xizmatini sozlash.**
 ![img](screen/4..png)
+
+**Quyidagi buyruqning natijasida NTPSynchronized=yes bo'lishi kerak: `timedatectl show`.**
 ![img](screen/4..png)
+
+## Part 7.Matn muharrirlarini o'rnatish va ishlatish.
+**VIM matn muharririni o‘rnating (+ istalgan ikkitasini tanlang: NANO, MCEDIT, JOE va boshqalar).**
 ![img](screen/4..png)
+
 ![img](screen/4..png)
