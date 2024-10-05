@@ -94,7 +94,7 @@ Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dast
 ![img](screen/4.1.png)
 ## Part 5. Sudo komandasi foydalanish
 
-**[Part 1](#Part-1.-Operatsion-tizimni-o‘rnatish)da yaratilgan foydalanuvchiga sudo komandasini bajarishga ruxsat berish.**
+**[Part 1](#Part-1)da yaratilgan foydalanuvchiga sudo komandasini bajarishga ruxsat berish.**
 ![img](screen/5.0.png)
 **Part 2 da yaratilgan foydalanuvchi nomidan OS hostname ni o'zgartirish (sudo yordamida).**
 ![img](screen/5.1.png)
