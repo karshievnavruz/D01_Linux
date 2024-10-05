@@ -1,11 +1,18 @@
 
 1.[Part 1](#part-1-operatsion-tizimni-ornatish)
+
 2.[Part 2](#part-2-foydalanuvchini-yaratish)
+
 3.[Part 3](#part-3-tarmoqni-sozlash)
+
 4.[Part 4](#part-4-os-yangilash)
+
 5.[Part 5](#part-5-sudo-komandasi-foydalanish)
+
 6.[Part 6](#part-6-vaqt-xizmatini-ornatish-va-sozlash)
+
 7.[Part 7](#part-7matn-muharrirlarini-ornatish-va-ishlatish)
+
 8.[Part 8]()
 9.[Part 9](#)
 10.[Part 10](#)
