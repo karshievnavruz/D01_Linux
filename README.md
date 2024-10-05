@@ -49,3 +49,20 @@ Keyin foydalanuvchini adm guruhiga qo'shish uchun quyidagi buyruqni bajaring:
    ```
 ![img](screen/2.3.png)
 
+## Part 3. Tarmoqni sozlash
+
+### Natija:
+
+#### Mashinaning nomini user-1 qilib o'rnating.
+![img](screen/3.0.png)
+![img](screen/3.1.png)
+#### Hozirgi joylashuvingizga mos vaqt zonasini o'rnating.
+![img](screen/3.2.png)
+sudo timedatectl set-timezone Asia/Tashkent
+
+
+![img](screen/3.1.png)
+![img](screen/3.1.png)
+![img](screen/3.1.png)
+![img](screen/3.1.png)
+![img](screen/3.1.png)
