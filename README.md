@@ -315,6 +315,14 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 
 ## Part 10.Fdisk utilitasidan foydalanish
 
+**fdisk -l buyrug'ini ishga tushirish.**
+![img](screen/10.0.png)
+### Ism
+![img](screen/10.1.png)
+**Hajmi 8.25 GB** 
+
+**Sektorlar soni 88541755744**
+![img](screen/10.0.png)
 
 ## Part 11.Df utilitasidan foydalanish
 
