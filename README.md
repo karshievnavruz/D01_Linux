@@ -149,17 +149,172 @@ Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dast
 
 ## Part 7.Matn muharrirlarini o'rnatish va ishlatish.
 **VIM matn muharririni o‘rnating (+ istalgan ikkitasini tanlang: NANO, MCEDIT, JOE va boshqalar).**
-![img](screen/4..png)
+![img](screen/7.0.png)
 
-![img](screen/4..png)
+**Har uchta tanlangan muharrirni ishlatib, test_X.txt faylini yarating, bunda X fayl yaratilgan muharrir nomi bo'ladi. Fayl ichiga o'zingizning taxallusingizni yozing va faylni o'zgartirishlarni saqlagan holda yoping.**
+![img](screen/7.1.png)
+
+vim7
+
+#### Chiqish:esc+:wq
+
+nano
+![img](screen/7.2.png)
+
+#### Chiqish: control+o+x
+
+mcedit
+![img](screen/7.3.png)
+
+Chiqish: f2+f10
+
+***Har uchta tanlangan muharrirni ishlatib, faylni tahrirlash uchun oching, faylni tahrirlang va taxallus o‘rniga "21 School 21" qatorini yozing, so‘ngra faylni o‘zgartirishlarsiz yoping. vim**
+
+![img](screen/7.4.png)
+#### Chiqish:q!
+
+nano
+![img](screen/7.5.png)
+Chiqish: control+x
+
+mcedit
+![img](screen/7.6.png)
+
+#### Chiqish: f10
+
+**Har uchta tanlangan muharrirda faylni yana bir bor tahrirlab chiqing (oldingi qadamga o‘xshash tarzda), so'ngra fayl mazmunida so‘zlarni qidirish va ularni boshqa so‘zga almashtirish funksiyalarini o‘rganing.**
+
+#### vim Qidirish
+![img](screen/7.7.png)
+
+#### O'rnini bosish
+![img](screen/7.8.png)
+
+**/-Qidirish**
+
+**nano Qidirish**
+![img](screen/7.9.png)
+
+#### O'rnini bosish - ``control/``
+![img](screen/7.10.png)
+![img](screen/7.11.png)
+
+#### Qidirish ``control w``
+
+``mcedit``
+
+#### Qidirish -f7
+![img](screen/7.12.png)
+![img](screen/7.13.png)
+
+#### Qidirish -f4
+![img](screen/7.14.png)
+![img](screen/7.15.png)
+![img](screen/7.16.png)
+
 
 ## Part 8.SSHD xizmatini o'rnatish va asosiy sozlash 
+
+**SSHd xizmatini o'rnatish.**
+
+**Repository yangilanishi.**
+![img](screen/8.0.png)
+
+#### SSH o'rnatish
+![img](screen/8.1.png)
+#### OpenSSH o'rnatish
+![img](screen/8.2.png)
+
+#### Tizim yuklanayotganda xizmatni avtomatik ishga tushirishni qo'shish.
+![img](screen/8.2.png)
+
+#### SSH holati.
+![img](screen/8.3.png)
+#### SSHd xizmatini 2022-portga qayta sozlash:
+
+![img](screen/8.4.png)
+
+#### SSH-ni o'zgarishlarni saqlash uchun qayta ishga tushirish
+![img](screen/8.5.png)
+#### `ps` buyrug'idan foydalanib, sshd jarayonining mavjudligini ko'rsatish uchun kalitlarni tanlash kerak.
+![img](screen/8.6.png)
+
+`-tan:`
+
+`t-TCP `protokoli bo'yicha
+
+`a`- Barcha ulanishlar va kutilayotgan portlarni ko'rsatish.
+
+`n`- Manzillar va port raqamlarini raqamli formatda ko'rsatish.
+
+Ustunlar:
+
+`Recv-Q `- Ushbu tugunda/kompyuterda qabul qilish navbatlarida turgan so'rovlar soni
+
+`Send-Q` - Ushbu tugunda/kompyuterda jo'natish navbatlarida turgan so'rovlar soni
+
+`Local Address` - Mahalliy soketning manzili va port raqami
+
+`Foreign Address` - Uzoq soket manzili va port raqami
+
+`State `- Soketning holati
+
+Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan ma'noni anglatadi, ya'ni bu ulanishda ushbu kompyuterda mavjud bo'lgan barcha IP-manzillar ishlatilishi mumkin.
+![img](screen/8.7.png)
+
+**-tps -aux | grep sshd** chiqishi:
+
+- **ps** — sizning serveringizda hozirgi jarayonlarning ro'yxatini jadval ko'rinishida chiqaradi.
+  
+- **a** — fon jarayonlaridan tashqari barcha jarayonlarni tanlaydi.
+  
+- **u** — foydalanuvchi jarayonlarini tanlaydi.
+  
+- **x** — ps ga sizga tegishli barcha jarayonlarni ro'yxatga olishni buyuradi.
+
 
 
 ## Part 9.Top va Htop utilitalarini o'rnatish va ishlatish
 
+**top va htop yordamchilarini o'rnating va ishga tushiring**
+
+`top`
+![img](screen/9.0.png)
+
+`uptime`
+![img](screen/9.1.png)
+**Avtorizatsiyadan o'tgan foydalanuvchilar soni**
+![img](screen/9.2.png)
+
+**Tizimning umumiy yuklanishi**
+![img](screen/9.3.png)
+**Umumiy jarayonlar soni**
+![img](screen/9.4.png)
+**CPU yuklanishi**
+![img](screen/9.5.png)
+**Xotira yuklanishi**
+![img](screen/9.6.png)
+**Eng ko'p xotira egallovchi jarayonning PID raqami**
+![img](screen/9.7.png)
+**Eng ko'p protsessor vaqti sarflovchi jarayonning ``pid``si**
+![img](screen/9.8.png)
+**htop PID bo'yicha saralangan**
+![img](screen/9.9.png)
+**PERCENT_CPU** 
+![img](screen/9.10.png)
+**PERCENT_MEM**
+![img](screen/9.11.png)
+**TIME**
+![img](screen/9.12.png)
+**sshd jarayoni uchun filtrlash**
+![img](screen/9.13.png)
+**Qidiruv yordamida topilgan syslog jarayoni bilan**
+![img](screen/9.14.png)
+**`hostname`, soat va ``uptime`` chiqishini qo'shgan holda**
+![img](screen/9.15.png)
 
 ## Part 10.Fdisk utilitasidan foydalanish
+
 
 ## Part 11.Df utilitasidan foydalanish
 
