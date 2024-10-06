@@ -1,4 +1,4 @@
-
+## Contents
 1.[Part 1](#part-1-operatsion-tizimni-ornatish)
 
 2.[Part 2](#part-2-foydalanuvchini-yaratish)
@@ -13,12 +13,21 @@
 
 7.[Part 7](#part-7matn-muharrirlarini-ornatish-va-ishlatish)
 
-8.[Part 8]()
-9.[Part 9](#)
-10.[Part 10](#)
-11.[Part 11](#)
-12.[Part 12](#)
-13.[Part 13](#)
+8.[Part 8](#part-8sshd-xizmatini-ornatish-va-asosiy-sozlash)
+
+9.[Part 9](#part-9top-va-htop-utilitalarini-ornatish-va-ishlatish)
+
+10.[Part 10](#part-10fdisk-utilitasidan-foydalanish)
+
+11.[Part 11](#part-11df-utilitasidan-foydalanish)
+
+12.[Part 12](#part-12du-utilitasidan-foydalanish)
+
+13.[Part 13](#part-13ncdu-utilitasini-ornatish-va-undan-foydalanish)
+
+14.[Part 14](#part-14tizim-jurnalari-bilan-ishlash)
+
+15.[Part 15](#part-15cron-ish-rejalashtiruvchisi)
 
 
 ## Part 1. Operatsion tizimni o‘rnatish
@@ -143,3 +152,21 @@ Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dast
 ![img](screen/4..png)
 
 ![img](screen/4..png)
+
+## Part 8.SSHD xizmatini o'rnatish va asosiy sozlash 
+
+
+## Part 9.Top va Htop utilitalarini o'rnatish va ishlatish
+
+
+## Part 10.Fdisk utilitasidan foydalanish
+
+## Part 11.Df utilitasidan foydalanish
+
+## Part 12.Du utilitasidan foydalanish
+
+## Part 13.Ncdu utilitasini o'rnatish va undan foydalanish
+
+## Part 14.Tizim jurnalari bilan ishlash
+
+## Part 15.CRON ish rejalashtiruvchisi 
