@@ -326,10 +326,91 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 
 ## Part 11.Df utilitasidan foydalanish
 
-## Part 12.Du utilitasidan foydalanish
+``df``
+**Asosiy katalog (/)**
+![img](screen/11.0.png)
 
-## Part 13.Ncdu utilitasini o'rnatish va undan foydalanish
+**Disk hajmi: 8408452**
+
+**Band joy hajmi: 2753880**
+
+**Bo'sh joy hajmi: 5205856**
+
+**Foydalanish foizi: 35%**
+
+**Chiqarilishdagi o'lchov birligi: kilobayt**
+
+**`df` -`Th` buyrug'i uchun ildiz bo'limi (/):**
+![img](screen/11.1.png)
+
+Bo'lim hajmi - 8,1 Gb
+
+Band bo'lgan joy hajmi - 2,7 Gb
+
+Bo'sh joy hajmi - 5,0 Gb
+
+Foydalanish foizi - 35%
+
+Bo'lim uchun fayl tizimi turi - ext4
+
+
+## Part 12.Du utilitasidan foydalanish.
+
+**/home, `/var`, `/var/log` papkalarining hajmini baytlarda ko'rsatish**
+
+![img](screen/12.0.png)
+![img](screen/12.1.png)
+/var/log ichidagi har bir fayl va papkaning o‘lchamini (* yordamida) ko‘rsatish uchun quyidagi buyruqni ishlatishingiz mumkin:
+
+```bash
+du -sh /var/log/*
+```
+
+Ushbu buyruq har bir elementning (fayl yoki papka) o‘lchamini inson uchun o‘qilishi qulay formatda (masalan, KB, MB, GB) chiqaradi.
+![img](screen/12.2.png)
+![img](screen/12.3.png)
+
+
+## Part 13.`Ncdu` utilitasini o'rnatish va undan foydalanish
+
+**"ncdu" utilitasini o'rnating.**
+![img](screen/13.0.png)
+
+**`/home`, `/var`, `/var/log` papkalarining o'lchamini chiqarish.**
+![img](screen/13.1.png)
+![img](screen/13.2.png)
+![img](screen/13.3.png)
 
 ## Part 14.Tizim jurnalari bilan ishlash
 
+`dmesg`
+![img](screen/14.0.png)
+
+`syslog` 
+![img](screen/14.0.png)
+
+`auth` 
+![img](screen/14.0.png)
+
+
+- so‘nggi muvaffaqiyatli avtorizatsiya vaqti - Feb 12 18:09:48
+- foydalanuvchi nomi - user-1
+- tizimga kirish usuli - sudo
+- SSHd xizmatini qayta ishga tushirish.
+![img](screen/14.1.png)
+![img](screen/14.2.png)
+
+
 ## Part 15.CRON ish rejalashtiruvchisi 
+
+`uptime` 
+![img](screen/15.0.png)
+
+**Тizim jurnalida (belgilangan vaqt oralig'ida) bajarish haqida kamida ikkita qatorni toping.**
+![img](screen/15.1.png)
+
+**joriy vazifalar ro'yxati.**
+![img](screen/15.2.png)
+**Barcha vazifalarni vazifalar rejalashtiruvchisidan o'chiring.**
+![img](screen/15.3.png)
+![img](screen/15.4.png)
