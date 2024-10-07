@@ -319,9 +319,9 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 ![img](screen/10.0.png)
 ### Ism
 ![img](screen/10.1.png)
-**Hajmi 8.25 GB** 
+- **Hajmi 8.25 GB** 
 
-**Sektorlar soni 88541755744**
+- **Sektorlar soni 88541755744**
 ![img](screen/10.0.png)
 
 ## Part 11.Df utilitasidan foydalanish
@@ -330,28 +330,28 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 **Asosiy katalog (/)**
 ![img](screen/11.0.png)
 
-**Disk hajmi: 8408452**
+- **Disk hajmi: 8408452**
 
-**Band joy hajmi: 2753880**
+- **Band joy hajmi: 2753880**
 
-**Bo'sh joy hajmi: 5205856**
+- **Bo'sh joy hajmi: 5205856**
 
-**Foydalanish foizi: 35%**
+- **Foydalanish foizi: 35%**
 
-**Chiqarilishdagi o'lchov birligi: kilobayt**
+- **Chiqarilishdagi o'lchov birligi: kilobayt**
 
 **`df` -`Th` buyrug'i uchun ildiz bo'limi (/):**
 ![img](screen/11.1.png)
 
-Bo'lim hajmi - 8,1 Gb
+- Bo'lim hajmi - 8,1 Gb
 
-Band bo'lgan joy hajmi - 2,7 Gb
+- Band bo'lgan joy hajmi - 2,7 Gb
 
-Bo'sh joy hajmi - 5,0 Gb
+- Bo'sh joy hajmi - 5,0 Gb
 
-Foydalanish foizi - 35%
+- Foydalanish foizi - 35%
 
-Bo'lim uchun fayl tizimi turi - ext4
+- Bo'lim uchun fayl tizimi turi - ext4
 
 
 ## Part 12.Du utilitasidan foydalanish.
