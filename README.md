@@ -133,7 +133,7 @@ Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dast
 ![img](screen/4.1.png)
 ## Part 5. Sudo komandasi foydalanish
 
-**[Part 1](#part-1-operatsion-tizimni-ornatish)da yaratilgan foydalanuvchiga sudo komandasini bajarishga ruxsat berish.**
+**[Part 2](#part-2-foydalanuvchini-yaratish)da yaratilgan foydalanuvchiga sudo komandasini bajarishga ruxsat berish.**
 ![img](screen/5.0.png)
 
 **[Part 2](#part-2-foydalanuvchini-yaratish) da yaratilgan foydalanuvchi nomidan OS hostname ni o'zgartirish (sudo yordamida).**
@@ -142,28 +142,34 @@ Eng asosiy virtual interfeyslaridan biri - `lo`. Bu lokal interfeys bo'lib, dast
 ## Part 6. Vaqt xizmatini o'rnatish va sozlash
 
 **Avtomatik vaqtni sinxronizatsiya qilish xizmatini sozlash.**
-![img](screen/4..png)
+
+![img](screen/6.0.png)
 
 **Quyidagi buyruqning natijasida NTPSynchronized=yes bo'lishi kerak: `timedatectl show`.**
-![img](screen/4..png)
+
+![img](screen/6.1.png)
 
 ## Part 7.Matn muharrirlarini o'rnatish va ishlatish.
 **VIM matn muharririni o‘rnating (+ istalgan ikkitasini tanlang: NANO, MCEDIT, JOE va boshqalar).**
+
 ![img](screen/7.0.png)
 
 **Har uchta tanlangan muharrirni ishlatib, test_X.txt faylini yarating, bunda X fayl yaratilgan muharrir nomi bo'ladi. Fayl ichiga o'zingizning taxallusingizni yozing va faylni o'zgartirishlarni saqlagan holda yoping.**
+
 ![img](screen/7.1.png)
 
-vim7
+`vim7`
 
 #### Chiqish:esc+:wq
 
-nano
+`nano`
+
 ![img](screen/7.2.png)
 
 #### Chiqish: control+o+x
 
-mcedit
+`mcedit`
+
 ![img](screen/7.3.png)
 
 Chiqish: f2+f10
@@ -173,11 +179,11 @@ Chiqish: f2+f10
 ![img](screen/7.4.png)
 #### Chiqish:q!
 
-nano
+`nano`
 ![img](screen/7.5.png)
 Chiqish: control+x
 
-mcedit
+`mcedit`
 ![img](screen/7.6.png)
 
 #### Chiqish: f10
@@ -282,20 +288,33 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 ![img](screen/9.0.png)
 
 `uptime`
+
 ![img](screen/9.1.png)
+
 **Avtorizatsiyadan o'tgan foydalanuvchilar soni**
+
 ![img](screen/9.2.png)
 
 **Tizimning umumiy yuklanishi**
+
 ![img](screen/9.3.png)
+
 **Umumiy jarayonlar soni**
+
 ![img](screen/9.4.png)
+
 **CPU yuklanishi**
+
 ![img](screen/9.5.png)
+
 **Xotira yuklanishi**
+
 ![img](screen/9.6.png)
+
 **Eng ko'p xotira egallovchi jarayonning PID raqami**
+
 ![img](screen/9.7.png)
+
 **Eng ko'p protsessor vaqti sarflovchi jarayonning ``pid``si**
 ![img](screen/9.8.png)
 **htop PID bo'yicha saralangan**
@@ -319,9 +338,9 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 ![img](screen/10.0.png)
 ### Ism
 ![img](screen/10.1.png)
-- **Hajmi 8.25 GB** 
+- **Hajmi 11.51 GB** 
 
-- **Sektorlar soni 88541755744**
+- **Sektorlar soni 12343836672**
 ![img](screen/10.0.png)
 
 ## Part 11.Df utilitasidan foydalanish
@@ -330,26 +349,26 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 **Asosiy katalog (/)**
 ![img](screen/11.0.png)
 
-- **Disk hajmi: 8408452**
+- **Disk hajmi: 11758760**
 
-- **Band joy hajmi: 2753880**
+- **Band joy hajmi: 4865392**
 
-- **Bo'sh joy hajmi: 5205856**
+- **Bo'sh joy hajmi: 6274260**
 
-- **Foydalanish foizi: 35%**
+- **Foydalanish foizi: 44%**
 
 - **Chiqarilishdagi o'lchov birligi: kilobayt**
 
 **`df` -`Th` buyrug'i uchun ildiz bo'limi (/):**
 ![img](screen/11.1.png)
 
-- Bo'lim hajmi - 8,1 Gb
+- Bo'lim hajmi - 12 Gb
 
-- Band bo'lgan joy hajmi - 2,7 Gb
+- Band bo'lgan joy hajmi - 4,7 Gb
 
-- Bo'sh joy hajmi - 5,0 Gb
+- Bo'sh joy hajmi - 6,0 Gb
 
-- Foydalanish foizi - 35%
+- Foydalanish foizi - 44%
 
 - Bo'lim uchun fayl tizimi turi - ext4
 
@@ -360,6 +379,7 @@ Agar manzil sifatida 0.0.0.0 ko'rsatilgan bo'lsa, bu "har qanday manzil" degan m
 
 ![img](screen/12.0.png)
 ![img](screen/12.1.png)
+
 /var/log ichidagi har bir fayl va papkaning o‘lchamini (* yordamida) ko‘rsatish uchun quyidagi buyruqni ishlatishingiz mumkin:
 
 ```bash
@@ -407,10 +427,12 @@ Ushbu buyruq har bir elementning (fayl yoki papka) o‘lchamini inson uchun o‘
 ![img](screen/15.0.png)
 
 **Тizim jurnalida (belgilangan vaqt oralig'ida) bajarish haqida kamida ikkita qatorni toping.**
+
 ![img](screen/15.1.png)
 
 **joriy vazifalar ro'yxati.**
+
 ![img](screen/15.2.png)
+
 **Barcha vazifalarni vazifalar rejalashtiruvchisidan o'chiring.**
-![img](screen/15.3.png)
-![img](screen/15.4.png)
+
