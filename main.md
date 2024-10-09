@@ -136,8 +136,3 @@ CRON ish rejalashtiruvchisi orqali ish vaqti buyrug'i bajarildi.
 Barcha vazifalarni olib tashlash uchun CRON rejalashtiruvchisi tozalandi. 
 
 ---
-
-### Izoh:
-Barcha skrinshotlar va boshqa qo'shimchalar hisobotda mavjud. Hisobot "src" papkasida `.md` kengaytmali formatda joylashgan.
-
-Umid qilamanki, bu yordam beradi! Agar biror narsani o'zgartirish yoki qo'shish kerak bo'lsa, iltimos xabar bering.
